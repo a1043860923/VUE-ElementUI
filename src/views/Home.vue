@@ -1,66 +1,21 @@
 <template>
-  <div class="home">
-    <Tip></Tip>
-    <Card v-for="item in list" :key="item.title" 
-      :title="item.title"
-      :tag1="item.tag1"
-      :tag2="item.tag2"
-      :img="item.img"
-      :month="item.month+''"
-      :day="item.day+''">
-    </Card>
-    <PageArea @changePage="changePage"></PageArea>
-    <Footer></Footer>
+  <div class="container">
+	home
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Tip from '@/components/Tip.vue'
-import Card from '@/components/Card.vue'
-import PageArea from '@/components/PageArea.vue'
-import Footer from '@/components/Footer.vue'
 import img1 from '../../public/img/bg1.jpg'
 import img2 from '../../public/img/bg2.jpeg'
 import img3 from '../../public/img/bg3.png'
 import Mock from 'mockjs'
 import request from '../assets/js/axios'
 export default {
-  name: 'Home',
   components: {
-    Tip,
-    Card,
-    Footer,
-    PageArea
+
   },
   data(){
     return{
-      list:[
-      {
-        title:'标题一',
-        tag1:'691,170°C',
-        tag2:'1739',
-        img:img2,
-        month:11,
-        day:14
-      },
-      {
-        title:'这是标题二',
-        tag1:'764,423',
-        tag2:'3739',
-        img:img3,
-        month:9,
-        day:4
-      },
-      {
-        title:'这是标题三',
-        tag1:'434,423',
-        tag2:'1239',
-        img:img1,
-        month:9,
-        day:1
-      }
-      ]
     }
   },
   methods:{
@@ -141,7 +96,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style scoped lang="stylus">
 
 @media screen and (min-width:1200px) 
     .home

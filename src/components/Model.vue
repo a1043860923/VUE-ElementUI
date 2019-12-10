@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="model">
 
   </div>
 </template>
@@ -8,6 +8,9 @@
 
 export default {
   name: 'Model',
+  components:{
+	
+  },
   props: {
     
   },
@@ -24,7 +27,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="stylus">
-.container
+.model
 
 
 @media screen and (min-width:1200px) 
