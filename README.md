@@ -1,33 +1,13 @@
-<<<<<<< HEAD
-# vue-responseWebPage
-=======
-# vue-website
+仿elementui官网
+官网图上半部分：
+![Alt text](https://github.com/a1043860923/VUE-ElementUI/blob/master/md_img/element.PNG)
 
-## Project setup
-```
-npm install
-```
+我的上半部分
+![Alt text](https://github.com/a1043860923/VUE-ElementUI/blob/master/md_img/mysite.PNG)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+官网图下半部分：
+![Alt text](https://github.com/a1043860923/VUE-ElementUI/blob/master/md_img/element2.PNG)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+我的下半部分
+![Alt text](https://github.com/a1043860923/VUE-ElementUI/blob/master/md_img/mysite2.PNG)
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> 日志
